@@ -1,10 +1,10 @@
- ---
- layout: post
- title: MCP with Stateless Endpoint
- date: 2025-03-20
- tags: [multi-agents, mcp]
- categories: [multi-agents]
- ---
+---
+layout: post
+title: MCP with Stateless Endpoint
+date: 2025-03-20
+tags: [multi-agents, mcp]
+categories: [multi-agents]
+---
 
 https://github.com/modelcontextprotocol/specification/discussions/112
 https://x.com/opentools_/status/1902374510743187464
@@ -28,7 +28,7 @@ RESTAPI = Code + Doc
 
 难道MCP==RESTAP吗？并不是，MCP目前是bidirectional以及long live http connection的，因此RESTAPI目前与mcp tool并不相同
 
-### 4. 早期 MCP 设计的局限
+### 早期 MCP 设计的局限
 
 在 MCP 的早期版本中，协议依赖于双向长连接（如 HTTP Server-Sent Events），确保客户端和服务器可以相互调用。
 
